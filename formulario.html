@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site sobre Ténis</title>
+    <link rel="shortcut icon" href="green-tennis-ball-for-outdoor-sports-png.webp" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/estilo.css">
+</head>
+
+<body>
+    <header>
+        <h1>
+            Curiosidades de Ténis
+        </h1>
+        <p>
+            Tudo aquilo que você quer saber 
+            sobre o mundo do Ténis
+        </p>
+    </header>
+    
+    <nav>
+        
+        <a href="Eduardo.html">Home</a>
+        <a href="#">Notícias</a>
+        <a href="#">Curiosidades</a>
+        <a href="#">Fale Connosco</a>
+        <a href="#">Dados Pessoais</a> 
+        <a href="formulario.html">Formulário</a> 
+
+    </nav>
+    <h1>Exemplo de formulário</h1>
+
+    <form action="registro.php" method="get">
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <p>
+                    <label for="Inome">Nome:</label>
+                    <input type="text" name="nome" id="Inome" placeholder="nome completo" minlength="5" maxlength="30" required>   
+                </p>
+                <p>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="Iemail" autocomplete="email" patten="[a-zA-Z0-9._%+-] +@[a-zA-Z0-9.-]+\.[a-zA-Z0-9]{2,4}$\"
+                    placeholder="utilizador@gmail.com" required>
+                </p>
+                <p>
+                  <label for="itelefone">telefone</label>
+                  <input type="tel" name="telefone" id="Itelefone" pattern="^\([0-9]{2}\)[0-9]{4,5}-[0-9] {4}$" placeholder="(xx) xxxx xxxx"requered>
+                </p>
+                <p>
+    
+                        <label for="Iano">Em que ano voce naceu?</label>
+                        <input type="number" name="Ano" min="1900" max="2024" value="2005" oninput="calcidade()">
+                </p>
+                <p>
+                    <input type="submit" value="enviar">
+                </p>
+    <footer>
+        <p>
+            Site criado por <a href="https://www.youtube.com/watch?v=W2N0eGIZV-8">   
+            Eduardo Almeida</a> para o <a href="https://www.youtube.com/watch?v=T-GSp2Nuvrk">
+            Sistemas de Informação</a>.
+        </p>
+    </footer>
+</body>
+</html>
